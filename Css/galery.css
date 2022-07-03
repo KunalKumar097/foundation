@@ -63,31 +63,3 @@ nav ul li{
 }
 
 
-@media (max-width: 760px){
-    nav ul{
-        position: fixed;
-        top: 80px;
-        left: 0;
-        background-color: black;
-        height: 100vh;
-        width: 100%;
-        display: block;
-        text-align: right;
-    }
-    nav ul li{
-        margin: 40px 0;
-
-    }
-    nav ul li a{
-        font-size: 20px;
-        display: block;
-
-    }
-    nav ul li a:hover{
-        background: none;
-        color: cyan;
-        border-radius: 100%;
-        transition: all 0.3s ease;
-    }
-
-}
