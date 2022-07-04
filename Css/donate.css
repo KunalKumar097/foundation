@@ -100,7 +100,7 @@ nav .menuBtn{
 
 body {
     position: relative;
-    background-image: url('img2.jpg');
+    background-image: url('../images/b.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover; 
