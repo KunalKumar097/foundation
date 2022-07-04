@@ -84,22 +84,6 @@ nav .menuBtn{
 #click{
     display: none;
 }
-.Btn{
-    padding: 5px 8px;
-    background-color: red;
-    color: white;
-    border-radius: 35%;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-size: 1.4rem;
-    size: auto;
-    font-weight: bolder;
-}
-#btn{
-    margin: 30px 0px;
-}
-
-
 @media (max-width: 760px){
     nav .menuBtn{
         display: block;
