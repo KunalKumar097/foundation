@@ -74,11 +74,8 @@ nav .menuBtn{
         text-align: center;
         transition: all 0.3s ease;
     }
-    #click:checked ~ ul{
+    #click:checked ~ ul,form{
         left: 0%;
-    }
-    #click:checked ~ form{
-        display: none;
     }
     nav ul li{
         margin: 40px 0;
@@ -88,6 +85,9 @@ nav .menuBtn{
         font-size: 20px;
         display: block;
 
+    }
+    .heading {
+        margin-top: 120px;
     }
     nav ul li a:hover{
         background: none;
@@ -109,9 +109,7 @@ body {
 .headText {
     margin-left: 1rem;
     margin-top: 0rem;
-    color: white;
     position: absolute;
-    /*top: 50%;*/
     left: 20px;
     font-weight: 100;
     color: black;
@@ -125,6 +123,7 @@ form {
 }
 
 .heading {
+    margin-top: 20px;
     width: 100%;
     color: black;
     text-align: center;
