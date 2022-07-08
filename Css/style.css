@@ -74,6 +74,12 @@ nav ul li{
     transition: 1000ms ease-in;
     color: white;
 }
+p{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    color:white;
+}
 
 nav .menuBtn{
     color: white;
@@ -131,4 +137,26 @@ nav .menuBtn{
         overflow-x: hidden;
     }
 
+}
+
+#donate {
+    font-size: 16px;
+    padding: 16px;
+    margin-top: 15px;
+    background-color: #B18904;
+    border: none;
+    text-decoration: none ;
+    font-weight: bold;
+    color: black;
+    transition: 300ms linear;
+}
+
+#donate:hover {
+    transform: translate(0, -5px, 0);
+    background-color: rgba(200, 100, 17);
+    transition: 300ms ease-out;
+}
+
+#divdonate{
+    margin-top: 2rem;
 }
